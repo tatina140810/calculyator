@@ -63,24 +63,21 @@ class CalculyatorScreen {
         addToHistory()
     }
     
-    
     func infiniteLoop() {
         while calculateTrue {
             calculate()
             
         }
-        
     }
+    
     func stopCalculate(){
         
         calculateTrue = false
         historyScreen.historyDisplay()
-        
-        
-        
     }
+    
     func addToHistory() {
-        historyScreen.history.append(result)
+        historyScreen.history.append(OperationDetail(description: result))
         
     }
 }

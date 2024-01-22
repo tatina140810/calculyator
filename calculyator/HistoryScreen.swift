@@ -9,11 +9,13 @@ import Foundation
 
 class HistoryScreen {
     
-    var history: [String] = []
+    var history: [OperationDetail] = []
     
     func printHistory() {
         
-        print(history)
+        for (index, operation) in history.enumerated() {
+            print("\(index): \(operation.description)")
+        }
     }
     
     func historyDisplay() {

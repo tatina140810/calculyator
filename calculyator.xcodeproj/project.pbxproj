@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AFB920B82B5C29C00060560A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920B72B5C29C00060560A /* main.swift */; };
+		AFB920BF2B5C2BFF0060560A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920BE2B5C2BFF0060560A /* Math.swift */; };
+		AFB920C12B5C385A0060560A /* CalculyatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920C02B5C385A0060560A /* CalculyatorScreen.swift */; };
+		AFB920C32B5C3D0E0060560A /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920C22B5C3D0E0060560A /* HistoryScreen.swift */; };
+		AFB920C52B5C42AD0060560A /* OperationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920C42B5C42AD0060560A /* OperationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		AFB920B42B5C29C00060560A /* calculyator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = calculyator; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB920B72B5C29C00060560A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AFB920BE2B5C2BFF0060560A /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		AFB920C02B5C385A0060560A /* CalculyatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculyatorScreen.swift; sourceTree = "<group>"; };
+		AFB920C22B5C3D0E0060560A /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		AFB920C42B5C42AD0060560A /* OperationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				AFB920B72B5C29C00060560A /* main.swift */,
+				AFB920C02B5C385A0060560A /* CalculyatorScreen.swift */,
+				AFB920C22B5C3D0E0060560A /* HistoryScreen.swift */,
+				AFB920BE2B5C2BFF0060560A /* Math.swift */,
+				AFB920C42B5C42AD0060560A /* OperationDetail.swift */,
 			);
 			path = calculyator;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB920C32B5C3D0E0060560A /* HistoryScreen.swift in Sources */,
+				AFB920C12B5C385A0060560A /* CalculyatorScreen.swift in Sources */,
+				AFB920C52B5C42AD0060560A /* OperationDetail.swift in Sources */,
 				AFB920B82B5C29C00060560A /* main.swift in Sources */,
+				AFB920BF2B5C2BFF0060560A /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

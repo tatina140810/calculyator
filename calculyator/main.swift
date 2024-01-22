@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let historyScreen = HistoryScreen()
+let calculatorScreen = CalculyatorScreen(historyScreen: historyScreen)
+calculatorScreen.infiniteLoop()
+
+
 
